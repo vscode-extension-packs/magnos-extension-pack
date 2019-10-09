@@ -1,0 +1,45 @@
+{
+  "name": "magnos-extension-pack",
+  "displayName": "Magno's Extension Pack",
+  "description": "This is an extension pack for Visual Studio Code with my favorite extensions.",
+  "version": "1.0.0",
+  "publisher": "magnobiet",
+  "engines": {
+    "vscode": "^1.38.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "magnobiet.essential-extension-pack",
+    "magnobiet.angular-extension-pack",
+    "magnobiet.sass-extension-pack",
+    "pkief.material-icon-theme",
+    "ms-vscode.sublime-keybindings",
+    "shyykoserhiy.vscode-spotify",
+    "ms-vscode-remote.remote-ssh",
+    "yzhang.markdown-all-in-one",
+    "andi1984.tinypng",
+    "funkyremi.vscode-google-translate",
+    "cssho.vscode-svgviewer"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#24292e",
+    "theme": "dark"
+  },
+  "scripts": {
+    "package": "npx vsce package",
+    "publish": "npx vsce publish"
+  },
+  "author": "Magno Biét <magno.biet@gmail.com> (https://magnobiet.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vscode-extension-packs/magnos-extension-pack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vscode-extension-packs/magnos-extension-pack/issues"
+  },
+  "homepage": "https://github.com/vscode-extension-packs/magnos-extension-pack#readme"
+}

@@ -1,0 +1,1 @@
+# magnos-extension-pack

@@ -21,7 +21,8 @@
     "yzhang.markdown-all-in-one",
     "andi1984.tinypng",
     "funkyremi.vscode-google-translate",
-    "cssho.vscode-svgviewer"
+    "cssho.vscode-svgviewer",
+    "felipe.nasc-touchbar"
   ],
   "icon": "icon.png",
   "galleryBanner": {

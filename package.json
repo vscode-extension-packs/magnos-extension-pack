@@ -2,7 +2,7 @@
   "name": "magnos-extension-pack",
   "displayName": "Magno's Extension Pack",
   "description": "This is an extension pack for Visual Studio Code with my favorite extensions.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "publisher": "magnobiet",
   "engines": {
     "vscode": "^1.38.0"
@@ -11,22 +11,24 @@
     "Extension Packs"
   ],
   "extensionPack": [
+    "dracula-theme.theme-dracula",
+    "pkief.material-icon-theme",
     "magnobiet.essential-extension-pack",
     "magnobiet.angular-extension-pack",
     "magnobiet.sass-extension-pack",
-    "pkief.material-icon-theme",
-    "ms-vscode.sublime-keybindings",
-    "shyykoserhiy.vscode-spotify",
-    "ms-vscode-remote.remote-ssh",
     "yzhang.markdown-all-in-one",
     "andi1984.tinypng",
-    "funkyremi.vscode-google-translate",
     "cssho.vscode-svgviewer",
-    "felipe.nasc-touchbar"
+    "felipe.nasc-touchbar",
+    "naumovs.color-highlight",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-containers",
+    "github.copilot",
+    "wakatime.vscode-wakatime"
   ],
   "icon": "icon.png",
   "galleryBanner": {
-    "color": "#24292e",
+    "color": "#202124",
     "theme": "dark"
   },
   "scripts": {

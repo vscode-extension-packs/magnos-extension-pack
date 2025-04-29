@@ -2,10 +2,10 @@
   "name": "magnos-extension-pack",
   "displayName": "Magno's Extension Pack",
   "description": "This is an extension pack for Visual Studio Code with my favorite extensions.",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "publisher": "magnobiet",
   "engines": {
-    "vscode": "^1.38.0"
+    "vscode": "^1.40.0"
   },
   "categories": [
     "Extension Packs"
@@ -16,13 +16,12 @@
     "magnobiet.essential-extension-pack",
     "magnobiet.angular-extension-pack",
     "magnobiet.sass-extension-pack",
+    "magnobiet.docker-extension-pack",
     "yzhang.markdown-all-in-one",
     "andi1984.tinypng",
     "cssho.vscode-svgviewer",
     "felipe.nasc-touchbar",
     "naumovs.color-highlight",
-    "ms-azuretools.vscode-docker",
-    "ms-vscode-remote.remote-containers",
     "github.copilot",
     "wakatime.vscode-wakatime"
   ],
